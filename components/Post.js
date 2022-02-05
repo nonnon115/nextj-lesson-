@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-const Post = ({ key, post1s }) => {
+export default function Post({ key, post1s }) {
     return (
         <div>
             <span>{post1s.id}</span>
-            <span>@@@{key}@@@gfgfgfgfg</span>
+            <span>@@@{key}@@@oooooo</span>
 
             {"  :  "}
             <Link href={`/posts/${post1s.id}`}>
@@ -15,5 +15,3 @@ const Post = ({ key, post1s }) => {
         </div>
     )
 }
-
-export default Post;
