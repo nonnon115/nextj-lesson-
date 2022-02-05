@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Layout from "../../components/Layout"
-import { getAllPostIds, getPostData } from "../../Lib/posts"
+import { getAllPostIds, getPostData } from "../../lib/posts"
 
 export default function Post({ post }) {
     if (!post) {
