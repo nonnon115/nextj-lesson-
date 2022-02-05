@@ -4,7 +4,7 @@ const Post = ({ key, post1s }) => {
     return (
         <div>
             <span>{post1s.id}</span>
-            <span>@@@{key}@@@</span>
+            <span>@@@{key}@@@gfgfgfgfg</span>
 
             {"  :  "}
             <Link href={`/posts/${post1s.id}`}>
