@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-const Post = ({ key1s, post1s }) => {
+const Post = ({ key, post1s }) => {
     return (
         <div>
             <span>{post1s.id}</span>
-            <span>@@@{key1s}@@@</span>
+            <span>@@@{key}@@@</span>
 
             {"  :  "}
             <Link href={`/posts/${post1s.id}`}>
