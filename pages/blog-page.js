@@ -6,7 +6,7 @@ const Blog = ({ posts }) => {
   return (
     <Layout title="Blog">
       <ul className='m-10'>
-        {posts && posts.map((postdata) => <Post key={posts.id} post1s={posts} />)}
+        {posts && posts.map((post) => <Post key={post.id} post1s={post} />)}
       </ul>
     </Layout>
   )
